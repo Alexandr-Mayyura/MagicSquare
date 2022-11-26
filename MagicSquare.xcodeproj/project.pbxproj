@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F057BC428FB570E009F2F4A /* ThirtySevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F057BC328FB570E009F2F4A /* ThirtySevenViewController.swift */; };
 		1F8C99B528F8A29B005E068A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C99B428F8A29B005E068A /* AppDelegate.swift */; };
 		1F8C99B728F8A29B005E068A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C99B628F8A29B005E068A /* SceneDelegate.swift */; };
 		1F8C99B928F8A29B005E068A /* MagicSquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C99B828F8A29B005E068A /* MagicSquareViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F057BC328FB570E009F2F4A /* ThirtySevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtySevenViewController.swift; sourceTree = "<group>"; };
 		1F8C99B128F8A29B005E068A /* MagicSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8C99B428F8A29B005E068A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F8C99B628F8A29B005E068A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				1F8C99B428F8A29B005E068A /* AppDelegate.swift */,
 				1F8C99B628F8A29B005E068A /* SceneDelegate.swift */,
 				1F8C99B828F8A29B005E068A /* MagicSquareViewController.swift */,
+				1F057BC328FB570E009F2F4A /* ThirtySevenViewController.swift */,
 				1F8C99BA28F8A29B005E068A /* Main.storyboard */,
 				1F8C99BD28F8A2A1005E068A /* Assets.xcassets */,
 				1F8C99BF28F8A2A1005E068A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1F8C99B928F8A29B005E068A /* MagicSquareViewController.swift in Sources */,
 				1F8C99B528F8A29B005E068A /* AppDelegate.swift in Sources */,
+				1F057BC428FB570E009F2F4A /* ThirtySevenViewController.swift in Sources */,
 				1F8C99B728F8A29B005E068A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,9 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22NTM9AJGF;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MagicSquare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,8 +304,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.Alexander-Mayyura.MagicSquare";
+				PRODUCT_BUNDLE_IDENTIFIER = "nu-shtosh.HomeBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,9 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22NTM9AJGF;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MagicSquare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,8 +333,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.Alexander-Mayyura.MagicSquare";
+				PRODUCT_BUNDLE_IDENTIFIER = "nu-shtosh.HomeBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
